@@ -20,6 +20,8 @@
 - [show interfaces counters](#show-interfaces-counters)
 - [show interfaces counters errors](#show-interfaces-counters-errors)
 - [show interfaces switchport](#show-interfaces-switchport)
+- [show interfaces trunk](#show-interfaces-trunk)
+- [show interfaces capabilities](#show-interfaces-capabilities)
 
 ---
 
