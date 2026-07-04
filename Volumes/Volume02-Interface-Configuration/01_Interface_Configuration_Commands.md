@@ -23,7 +23,7 @@
 - [keepalive](#keepalive)
 - [encapsulation](#encapsulation)
 - [clock rate](#clock-rate)
-- [media type](#media-type)
+- [media-type](#media-type)
 - [negotiation auto](#negotiation-auto)
 - [speed](#speed)
 - [duplex](#duplex)
