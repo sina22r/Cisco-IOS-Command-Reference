@@ -22,7 +22,7 @@
 - [switchport voice vlan](#switchport-voice-vlan)
 - [show interfaces trunk](#show-interfaces-trunk)
 - [show interfaces switchport](#show-interfaces-switchport)
-- [vlan summary](#vlan-summary)
+
 ---
 
 # vlan
