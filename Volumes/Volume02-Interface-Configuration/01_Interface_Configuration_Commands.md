@@ -27,8 +27,8 @@
 - [negotiation auto](#negotiation-auto)
 - [speed](#speed)
 - [duplex](#duplex)
-- [no_ip_address](#no-ip-address)
-- [default_interface](#default-interface)
+- [no ip address](#no-ip-address)
+- [default interface](#default-interface)
 
 ---
 
