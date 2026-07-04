@@ -1,40 +1,31 @@
 # Cisco IOS Command Reference
 
-> A comprehensive, open-source Cisco IOS Command Reference covering **CCNA**, **CCNP ENCOR**, and real-world Enterprise Networking.
-
-![GitHub](https://img.shields.io/badge/Documentation-Cisco%20IOS-blue)
-![Markdown](https://img.shields.io/badge/Built%20With-Markdown-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+> A comprehensive, practical, and continuously growing Cisco IOS command reference for **CCNA**, **CCNP ENCOR**, and real-world Enterprise Networking.
 
 ---
 
-## Overview
+## About
 
-This repository aims to become one of the most comprehensive Cisco IOS references available.
+This repository is designed to be a practical Cisco IOS reference rather than a traditional networking book.
 
-It is not just a list of commands.
+Instead of lengthy theoretical explanations, every command includes:
 
-Each command includes:
+- The command itself
+- A real CLI example
+- A short and practical explanation
 
-- Description
-- Syntax
-- Abbreviation
-- Parameters
-- Privilege Level
-- Configuration Mode
-- Platform Support
-- Example Configurations
-- Example Outputs
-- Verification Commands
-- Troubleshooting
-- Common Mistakes
-- Best Practices
-- Security Notes
-- Performance Notes
-- CCNA Notes
-- CCNP ENCOR Notes
-- Real-World Notes
-- Related Commands
+The goal is to provide a resource that network engineers can quickly search and use during study, labs, or production environments.
+
+---
+
+# Project Goals
+
+- Cover Cisco IOS commands from beginner to advanced
+- Include commands used in both CCNA and CCNP ENCOR
+- Focus on real-world usage
+- Keep explanations concise and practical
+- Organize commands by technology
+- Continuously expand with new Cisco IOS features
 
 ---
 
@@ -49,12 +40,13 @@ Cisco-IOS-Command-Reference/
 ├── LICENSE
 │
 ├── Volumes/
+│
 │   ├── Volume01-Basic-IOS/
-│   ├── Volume02-Interfaces/
+│   ├── Volume02-Interface-Configuration/
 │   ├── Volume03-VLAN/
 │   ├── Volume04-Trunk/
-│   ├── Volume05-EtherChannel/
-│   ├── Volume06-STP/
+│   ├── Volume05-STP/
+│   ├── Volume06-EtherChannel/
 │   ├── Volume07-IPv4/
 │   ├── Volume08-IPv6/
 │   ├── Volume09-Static-Routing/
@@ -62,7 +54,7 @@ Cisco-IOS-Command-Reference/
 │   ├── Volume11-EIGRP/
 │   ├── Volume12-OSPF/
 │   ├── Volume13-BGP/
-│   ├── Volume14-Redistribution/
+│   ├── Volume14-Route-Redistribution/
 │   ├── Volume15-ACL/
 │   ├── Volume16-NAT/
 │   ├── Volume17-DHCP/
@@ -76,24 +68,95 @@ Cisco-IOS-Command-Reference/
 │   └── Volume25-Hidden-Commands/
 │
 ├── Labs/
+│
 ├── CheatSheets/
-├── Diagrams/
-├── Images/
+│
 ├── PDFs/
-└── Assets/
+│
+├── Images/
+│
+├── Assets/
+│
+├── Templates/
+│   ├── Command-Template.md
+│   ├── README-Template.md
+│   ├── Lab-Template.md
+│   └── CheatSheet-Template.md
+│
+└── Scripts/
 ```
 
 ---
 
-# Topics Covered
+# Repository Organization
+
+Each volume is organized independently.
+
+Example:
+
+```
+Volume12-OSPF/
+
+README.md
+
+01-OSPF-Commands.md
+
+02-Verification.md
+
+03-Labs.md
+
+04-CheatSheet.md
+```
+
+This structure keeps the repository clean, scalable, and easy to navigate.
+
+---
+
+# Command Format
+
+Every command follows the same simple format:
+
+```
+Command Name
+
+Command
+
+Example
+
+Description
+```
+
+Example:
+
+```
+show version
+
+Command
+
+show version
+
+Example
+
+R1# show version
+
+Description
+
+Displays the IOS version, uptime, hardware information,
+boot image, and licensing details.
+```
+
+The objective is simplicity and quick access to information.
+
+---
+
+# Covered Technologies
 
 - Cisco IOS Fundamentals
-- CLI Navigation
 - Interface Configuration
 - VLAN
 - Trunking
+- STP
 - EtherChannel
-- STP / RSTP / MST
 - IPv4
 - IPv6
 - Static Routing
@@ -105,18 +168,30 @@ Cisco-IOS-Command-Reference/
 - ACL
 - NAT
 - DHCP
-- HSRP / VRRP / GLBP
+- FHRP (HSRP, VRRP, GLBP)
 - QoS
+- Layer 2 Security
 - AAA
 - SNMP
-- Syslog
-- Automation
-- Python
-- NETCONF
-- RESTCONF
-- Cisco DNA
+- Network Automation
 - Troubleshooting
 - Hidden IOS Commands
+
+---
+
+# Labs
+
+Most volumes include practical labs designed to reinforce configuration and troubleshooting skills.
+
+The labs are based on real Cisco IOS scenarios whenever possible.
+
+---
+
+# Cheat Sheets
+
+Each volume includes a concise cheat sheet summarizing the most commonly used commands.
+
+These are intended for quick review before exams or while working on production networks.
 
 ---
 
@@ -124,43 +199,51 @@ Cisco-IOS-Command-Reference/
 
 - CCNA Students
 - CCNP ENCOR Students
-- CCIE Candidates
 - Network Engineers
-- System Engineers
-- SOC Engineers
+- System Administrators
 - NOC Engineers
-- Enterprise Administrators
-
----
-
-# Project Goals
-
-- Create a professional Cisco IOS command reference.
-- Explain every commonly used IOS command.
-- Include practical examples and verification methods.
-- Focus on production-ready configurations.
-- Cover both exam topics and real-world deployments.
+- SOC Engineers
+- Cisco Enthusiasts
 
 ---
 
 # Progress
 
 | Volume | Status |
-|----------|--------|
-| Volume 1 – Basic IOS | 🚧 In Progress |
-| Volume 2 – Interfaces | ⏳ Planned |
-| Volume 3 – VLAN | ⏳ Planned |
-| Volume 4 – Trunk | ⏳ Planned |
-| Volume 5 – EtherChannel | ⏳ Planned |
-| ... | ... |
+|---------|--------|
+| Basic IOS | 🚧 In Progress |
+| Interface Configuration | ⏳ Planned |
+| VLAN | ⏳ Planned |
+| Trunk | ⏳ Planned |
+| STP | ⏳ Planned |
+| EtherChannel | ⏳ Planned |
+| IPv4 | ⏳ Planned |
+| IPv6 | ⏳ Planned |
+| Static Routing | ⏳ Planned |
+| RIP | ⏳ Planned |
+| EIGRP | ⏳ Planned |
+| OSPF | ⏳ Planned |
+| BGP | ⏳ Planned |
+| Route Redistribution | ⏳ Planned |
+| ACL | ⏳ Planned |
+| NAT | ⏳ Planned |
+| DHCP | ⏳ Planned |
+| FHRP | ⏳ Planned |
+| QoS | ⏳ Planned |
+| Security | ⏳ Planned |
+| AAA | ⏳ Planned |
+| SNMP | ⏳ Planned |
+| Automation | ⏳ Planned |
+| Troubleshooting | ⏳ Planned |
+| Hidden Commands | ⏳ Planned |
 
 ---
 
 # Contributing
 
-Contributions are welcome.
+Contributions, corrections, and suggestions are always welcome.
 
-Please read **CONTRIBUTING.md** before opening a Pull Request.
+Please read **CONTRIBUTING.md** before submitting a Pull Request.
 
 ---
 
@@ -170,14 +253,8 @@ This project is licensed under the MIT License.
 
 ---
 
-# Author
+# Disclaimer
 
-Created and maintained by the Cisco IOS Command Reference Project.
-
----
-
-## Disclaimer
-
-Cisco®, Cisco IOS®, CCNA®, CCNP®, and CCIE® are registered trademarks of Cisco Systems, Inc.
+Cisco®, Cisco IOS®, CCNA®, CCNP®, CCIE®, IOS XE®, and related names are trademarks of Cisco Systems, Inc.
 
 This repository is an independent educational project and is not affiliated with or endorsed by Cisco Systems.
