@@ -207,35 +207,35 @@ These are intended for quick review before exams or while working on production 
 
 ---
 
-# Progress
+# Progress Tracker
 
 | Volume | Status |
-|---------|--------|
-| Basic IOS | 🚧 In Progress |
-| Interface Configuration | ⏳ Planned |
-| VLAN | ⏳ Planned |
-| Trunk | ⏳ Planned |
-| STP | ⏳ Planned |
-| EtherChannel | ⏳ Planned |
-| IPv4 | ⏳ Planned |
-| IPv6 | ⏳ Planned |
-| Static Routing | ⏳ Planned |
-| RIP | ⏳ Planned |
-| EIGRP | ⏳ Planned |
-| OSPF | ⏳ Planned |
-| BGP | ⏳ Planned |
-| Route Redistribution | ⏳ Planned |
-| ACL | ⏳ Planned |
-| NAT | ⏳ Planned |
-| DHCP | ⏳ Planned |
-| FHRP | ⏳ Planned |
-| QoS | ⏳ Planned |
-| Security | ⏳ Planned |
-| AAA | ⏳ Planned |
-| SNMP | ⏳ Planned |
-| Automation | ⏳ Planned |
-| Troubleshooting | ⏳ Planned |
-| Hidden Commands | ⏳ Planned |
+|--------|--------|
+| [Basic IOS](./Volumes/Volume01-IOS-Fundamentals/) | ✅ Completed |
+| [Interface Configuration](./Volumes/Volume02-Interface-Configuration/) | ✅ Completed |
+| [VLAN](./Volumes/Volume03-VLAN-Configuration/) | 🚧 In Progress |
+| [Trunk](./Volumes/Volume04-Trunk/) | ⏳ Planned |
+| [STP](./Volumes/Volume05-STP/) | ⏳ Planned |
+| [EtherChannel](./Volumes/Volume06-EtherChannel/) | ⏳ Planned |
+| [IPv4](./Volumes/Volume07-IPv4/) | ⏳ Planned |
+| [IPv6](./Volumes/Volume08-IPv6/) | ⏳ Planned |
+| [Static Routing](./Volumes/Volume09-Static-Routing/) | ⏳ Planned |
+| [RIP](./Volumes/Volume10-RIP/) | ⏳ Planned |
+| [EIGRP](./Volumes/Volume11-EIGRP/) | ⏳ Planned |
+| [OSPF](./Volumes/Volume12-OSPF/) | ⏳ Planned |
+| [BGP](./Volumes/Volume13-BGP/) | ⏳ Planned |
+| [Route Redistribution](./Volumes/Volume14-Redistribution/) | ⏳ Planned |
+| [ACL](./Volumes/Volume15-ACL/) | ⏳ Planned |
+| [NAT](./Volumes/Volume16-NAT/) | ⏳ Planned |
+| [DHCP](./Volumes/Volume17-DHCP/) | ⏳ Planned |
+| [FHRP](./Volumes/Volume18-FHRP/) | ⏳ Planned |
+| [QoS](./Volumes/Volume19-QoS/) | ⏳ Planned |
+| [Security](./Volumes/Volume20-Security/) | ⏳ Planned |
+| [AAA](./Volumes/Volume21-AAA/) | ⏳ Planned |
+| [SNMP](./Volumes/Volume22-SNMP/) | ⏳ Planned |
+| [Automation](./Volumes/Volume23-Automation/) | ⏳ Planned |
+| [Troubleshooting](./Volumes/Volume24-Troubleshooting/) | ⏳ Planned |
+| [Hidden Commands](./Volumes/Volume25-Hidden-Commands/) | ⏳ Planned |
 
 ---
 
