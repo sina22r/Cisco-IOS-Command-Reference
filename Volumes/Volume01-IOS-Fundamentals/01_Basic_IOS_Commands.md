@@ -2,73 +2,77 @@
 
 Volume 01 • IOS Fundamentals
 
+Estimated Reading Time
+
+35 Minutes
+
 ---
 
 ## Contents
 
-- enable
-- disable
-- exit
-- end
-- logout
-- quit
-- configure terminal
-- hostname
-- banner motd
-- banner login
-- enable password
-- enable secret
-- service password-encryption
-- no ip domain-lookup
-- ip domain-name
-- username
-- password
-- line console 0
-- line vty 0 4
-- login
-- login local
-- exec-timeout
-- logging synchronous
-- transport input
-- do
-- copy running-config startup-config
-- write memory
-- erase startup-config
-- reload
+- [enable](#enable)
+- [disable](#disable)
+- [exit](#exit)
+- [end](#end)
+- [logout](#logout)
+- [quit](#quit)
+- [configure terminal](#configure-terminal)
+- [hostname](#hostname)
+- [banner motd](#banner-motd)
+- [banner login](#banner-login)
+- [enable password](#enable-password)
+- [enable secret](#enable-secret)
+- [service password-encryption](#service-password-encryption)
+- [no ip domain-lookup](#no-ip-domain-lookup)
+- [ip domain-name](#ip-domain-name)
+- [username](#username)
+- [password](#password)
+- [line console 0](#line-console-0)
+- [line vty 0 4](#line-vty-0-4)
+- [login](#login)
+- [login local](#login-local)
+- [exec-timeout](#exec-timeout)
+- [logging synchronous](#logging-synchronous)
+- [transport input](#transport-input)
+- [do](#do)
+- [copy running-config startup-config](#copy-running-config-startup-config)
+- [write memory](#write-memory)
+- [erase startup-config](#erase-startup-config)
+- [reload](#reload)
 
 ---
 
 # enable
 
-Syntax
+Syntax:
 
 enable
 
-Example
+Example:
 
 Router> enable
 
 Router#
 
-What it does
+What it does:
 
-Enters Privileged EXEC mode, allowing access to monitoring, debugging, and configuration commands.
+Enters Privileged EXEC mode, allowing access to advanced monitoring, troubleshooting, and configuration commands.
 
 ------------------------------------------------------------
 
 # disable
 
-Syntax
+Syntax:
 
 disable
 
-Example
+Example:
 
 Router# disable
 
 Router>
 
-What it does
+What it does:
 
 Returns from Privileged EXEC mode to User EXEC mode.
 
@@ -76,53 +80,53 @@ Returns from Privileged EXEC mode to User EXEC mode.
 
 # exit
 
-Syntax
+Syntax:
 
 exit
 
-Example
+Example:
 
 Router(config-if)# exit
 
 Router(config)#
 
-What it does
+What it does:
 
-Exits the current configuration mode and returns to the previous mode.
+Exits the current command mode and returns to the previous mode.
 
 ------------------------------------------------------------
 
 # end
 
-Syntax
+Syntax:
 
 end
 
-Example
+Example:
 
 Router(config)# end
 
 Router#
 
-What it does
+What it does:
 
-Immediately exits Configuration mode and returns to Privileged EXEC mode.
+Immediately exits all configuration modes and returns to Privileged EXEC mode.
 
 ------------------------------------------------------------
 
 # logout
 
-Syntax
+Syntax:
 
 logout
 
-Example
+Example:
 
 Router> logout
 
-Connection closed.
+Connection closed by foreign host.
 
-What it does
+What it does:
 
 Terminates the current CLI session.
 
@@ -130,35 +134,35 @@ Terminates the current CLI session.
 
 # quit
 
-Syntax
+Syntax:
 
 quit
 
-Example
+Example:
 
 Router# quit
 
-Connection closed.
+Connection closed by foreign host.
 
-What it does
+What it does:
 
-Ends the current CLI session. On most Cisco IOS platforms, it behaves the same as the `logout` command.
+Ends the current CLI session. On most Cisco IOS devices, it performs the same function as `logout`.
 
 ------------------------------------------------------------
 
 # configure terminal
 
-Syntax
+Syntax:
 
 configure terminal
 
-Example
+Example:
 
 Router# configure terminal
 
 Router(config)#
 
-What it does
+What it does:
 
 Enters Global Configuration mode, where most device configuration tasks are performed.
 
@@ -166,29 +170,29 @@ Enters Global Configuration mode, where most device configuration tasks are perf
 
 # hostname
 
-Syntax
+Syntax:
 
 hostname R1
 
-Example
+Example:
 
 Router(config)# hostname R1
 
 R1(config)#
 
-What it does
+What it does:
 
-Changes the device hostname. The new hostname is immediately reflected in the CLI prompt.
+Changes the device hostname. The new hostname immediately appears in the CLI prompt.
 
 ------------------------------------------------------------
 
 # banner motd
 
-Syntax
+Syntax:
 
 banner motd #
 
-Example
+Example:
 
 Router(config)# banner motd #
 
@@ -196,19 +200,19 @@ Unauthorized access is prohibited.
 
 #
 
-What it does
+What it does:
 
-Configures the Message of the Day (MOTD) banner, which is displayed before user authentication.
+Configures the Message of the Day (MOTD) banner displayed before user authentication.
 
 ------------------------------------------------------------
 
 # banner login
 
-Syntax
+Syntax:
 
 banner login #
 
-Example
+Example:
 
 Router(config)# banner login #
 
@@ -216,50 +220,340 @@ Authorized Personnel Only
 
 #
 
-What it does
+What it does:
 
-Displays a banner after a connection is established but before the login prompt appears.
+Displays a banner immediately before the login prompt appears.
 
 ------------------------------------------------------------
 
 # enable password
 
-Syntax
+Syntax:
 
 enable password PASSWORD
 
-Example
+Example:
 
 Router(config)# enable password Cisco123
 
-What it does
+What it does:
 
-Configures a password for entering Privileged EXEC mode. This command is considered legacy and is not recommended for secure deployments.
+Configures the legacy password for Privileged EXEC mode. This command is maintained for compatibility but is not recommended for secure environments.
 
 ------------------------------------------------------------
 
 # enable secret
 
-Syntax
+Syntax:
 
 enable secret PASSWORD
 
-Example
+Example:
 
 Router(config)# enable secret Cisco123
 
-What it does
+What it does:
 
-Configures an encrypted password for Privileged EXEC mode. If both `enable password` and `enable secret` are configured, `enable secret` takes precedence.
+Configures the encrypted password for Privileged EXEC mode. If both `enable password` and `enable secret` exist, `enable secret` always takes precedence.
 
 ------------------------------------------------------------
 
-End of File
+# service password-encryption
 
-← Previous
+Syntax:
 
-README.md
+service password-encryption
 
-Next →
+Example:
 
-Continue with the remaining Basic IOS commands
+R1(config)# service password-encryption
+
+What it does:
+
+Encrypts all plain-text passwords stored in the running configuration using Cisco Type 7 encryption. It does not encrypt passwords protected by the `enable secret` command.
+
+------------------------------------------------------------
+
+# no ip domain-lookup
+
+Syntax:
+
+no ip domain-lookup
+
+Example:
+
+R1(config)# no ip domain-lookup
+
+What it does:
+
+Disables DNS lookups for mistyped commands. This prevents the router or switch from attempting to resolve unknown commands as hostnames, reducing unnecessary delays.
+
+------------------------------------------------------------
+
+# ip domain-name
+
+Syntax:
+
+ip domain-name DOMAIN_NAME
+
+Example:
+
+R1(config)# ip domain-name example.com
+
+What it does:
+
+Configures the device's default domain name. This command is commonly required before generating RSA keys for SSH.
+
+------------------------------------------------------------
+
+# username
+
+Syntax:
+
+username USERNAME secret PASSWORD
+
+Example:
+
+R1(config)# username admin secret Cisco123
+
+What it does:
+
+Creates a local user account for authentication. The `secret` keyword stores the password in encrypted form and is recommended over `password`.
+
+------------------------------------------------------------
+
+# password
+
+Syntax:
+
+password PASSWORD
+
+Example:
+
+R1(config-line)# password Cisco123
+
+What it does:
+
+Assigns a password to console, AUX, or VTY lines. This command is typically used together with the `login` command.
+
+------------------------------------------------------------
+
+# line console 0
+
+Syntax:
+
+line console 0
+
+Example:
+
+R1(config)# line console 0
+
+R1(config-line)#
+
+What it does:
+
+Enters Console Line Configuration mode, allowing you to configure console authentication, timeouts, logging behavior, and other console settings.
+
+------------------------------------------------------------
+
+# line vty 0 4
+
+Syntax:
+
+line vty 0 4
+
+Example:
+
+R1(config)# line vty 0 4
+
+R1(config-line)#
+
+What it does:
+
+Enters VTY Line Configuration mode to configure remote access settings such as Telnet, SSH, authentication, and access restrictions.
+
+------------------------------------------------------------
+
+# login
+
+Syntax:
+
+login
+
+Example:
+
+R1(config-line)# login
+
+What it does:
+
+Enables password checking on the selected line. A password must already be configured using the `password` command.
+
+------------------------------------------------------------
+
+# login local
+
+Syntax:
+
+login local
+
+Example:
+
+R1(config-line)# login local
+
+What it does:
+
+Uses the local username database for authentication instead of the line password. This is the recommended method for SSH access.
+
+------------------------------------------------------------
+
+# exec-timeout
+
+Syntax:
+
+exec-timeout MINUTES SECONDS
+
+Example:
+
+R1(config-line)# exec-timeout 10 0
+
+What it does:
+
+Automatically disconnects inactive CLI sessions after the specified period of inactivity.
+
+------------------------------------------------------------
+
+# logging synchronous
+
+Syntax:
+
+logging synchronous
+
+Example:
+
+R1(config-line)# logging synchronous
+
+What it does:
+
+Prevents system log messages from interrupting command-line input by redisplaying the prompt after log messages appear.
+
+------------------------------------------------------------
+
+# transport input
+
+Syntax:
+
+transport input {ssh | telnet | all | none}
+
+Example:
+
+R1(config-line)# transport input ssh
+
+What it does:
+
+Specifies which remote access protocols are permitted on VTY lines. For security reasons, SSH is generally preferred over Telnet.
+
+------------------------------------------------------------
+
+# do
+
+Syntax:
+
+do COMMAND
+
+Example:
+
+R1(config)# do show ip interface brief
+
+What it does:
+
+Executes a Privileged EXEC command without leaving Configuration mode, making verification faster and more convenient.
+
+------------------------------------------------------------
+
+# copy running-config startup-config
+
+Syntax:
+
+copy running-config startup-config
+
+Example:
+
+R1# copy running-config startup-config
+
+Destination filename [startup-config]?
+
+Building configuration...
+
+[OK]
+
+What it does:
+
+Saves the current running configuration to NVRAM so it will be loaded after the device is restarted.
+
+------------------------------------------------------------
+
+# write memory
+
+Syntax:
+
+write memory
+
+Example:
+
+R1# write memory
+
+Building configuration...
+
+[OK]
+
+What it does:
+
+Saves the running configuration to startup configuration. This command is a shortcut equivalent to `copy running-config startup-config`.
+
+------------------------------------------------------------
+
+# erase startup-config
+
+Syntax:
+
+erase startup-config
+
+Example:
+
+R1# erase startup-config
+
+Erasing the nvram filesystem will remove all configuration files!
+
+Continue? [confirm]
+
+What it does:
+
+Deletes the startup configuration stored in NVRAM. The current running configuration remains active until the device is reloaded.
+
+------------------------------------------------------------
+
+# reload
+
+Syntax:
+
+reload
+
+Example:
+
+R1# reload
+
+Proceed with reload? [confirm]
+
+What it does:
+
+Restarts the Cisco device. If the running configuration has not been saved, any unsaved changes will be lost after the reload.
+
+------------------------------------------------------------
+
+## Navigation
+
+⬆️ [Back to Contents](#contents)
+
+⬅️ Previous: **[README.md](README.md)**
+
+➡️ Next: **[02_Verification_Commands.md](02_Verification_Commands.md)**
