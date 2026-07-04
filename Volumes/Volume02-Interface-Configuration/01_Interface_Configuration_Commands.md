@@ -25,6 +25,10 @@
 - [clock rate](#clock-rate)
 - [media-type](#media-type)
 - [negotiation auto](#negotiation-auto)
+- [speed](#speed)
+- [duplex](#duplex)
+- [no_ip_address](#no-ip-address)
+- [default_interface](#default-interface)
 
 ---
 
