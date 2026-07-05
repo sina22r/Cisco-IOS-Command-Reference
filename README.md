@@ -210,32 +210,32 @@ These are intended for quick review before exams or while working on production 
 # Progress Tracker
 
 | Volume | Status |
-|--------|--------|
-| [Basic IOS](./Volumes/Volume01-IOS-Fundamentals/) | ✅ Completed |
-| [Interface Configuration](./Volumes/Volume02-Interface-Configuration/) | ✅ Completed |
-| [VLAN](./Volumes/Volume03-VLAN-Configuration/) | ✅ Completed |
-| [Trunk](./Volumes/Volume04-Trunk/) | ✅ Completed |
-| [STP](./Volumes/Volume05-STP/) | ✅ Completed |
-| [EtherChannel](./Volumes/Volume06-EtherChannel/) | ✅ Completed |
-| [IPv4](./Volumes/Volume07-IPv4/) | ✅ Completed |
-| [IPv6](./Volumes/Volume08-IPv6/) | 🚧 In Progress |
-| [Static Routing](./Volumes/Volume09-Static-Routing/) | ⏳ Planned |
-| [RIP](./Volumes/Volume10-RIP/) | ⏳ Planned |
-| [EIGRP](./Volumes/Volume11-EIGRP/) | ⏳ Planned |
-| [OSPF](./Volumes/Volume12-OSPF/) | ⏳ Planned |
-| [BGP](./Volumes/Volume13-BGP/) | ⏳ Planned |
-| [Route Redistribution](./Volumes/Volume14-Redistribution/) | ⏳ Planned |
-| [ACL](./Volumes/Volume15-ACL/) | ⏳ Planned |
-| [NAT](./Volumes/Volume16-NAT/) | ⏳ Planned |
-| [DHCP](./Volumes/Volume17-DHCP/) | ⏳ Planned |
-| [FHRP](./Volumes/Volume18-FHRP/) | ⏳ Planned |
-| [QoS](./Volumes/Volume19-QoS/) | ⏳ Planned |
-| [Security](./Volumes/Volume20-Security/) | ⏳ Planned |
-| [AAA](./Volumes/Volume21-AAA/) | ⏳ Planned |
-| [SNMP](./Volumes/Volume22-SNMP/) | ⏳ Planned |
-| [Automation](./Volumes/Volume23-Automation/) | ⏳ Planned |
-| [Troubleshooting](./Volumes/Volume24-Troubleshooting/) | ⏳ Planned |
-| [Hidden Commands](./Volumes/Volume25-Hidden-Commands/) | ⏳ Planned |
+|---------|--------|
+| [Volume 01 - IOS Fundamentals](Volumes/Volume01-IOS-Fundamentals/README.md) | ✅ Completed |
+| [Volume 02 - Interface Configuration](Volumes/Volume02-Interface-Configuration/README.md) | ✅ Completed |
+| [Volume 03 - VLAN](Volumes/Volume03-VLAN/README.md) | ✅ Completed |
+| [Volume 04 - Trunk](Volumes/Volume04-Trunk/README.md) | ✅ Completed |
+| [Volume 05 - STP](Volumes/Volume05-STP/README.md) | ✅ Completed |
+| [Volume 06 - EtherChannel](Volumes/Volume06-EtherChannel/README.md) | ✅ Completed |
+| [Volume 07 - IPv4](Volumes/Volume07-IPv4/README.md) | ✅ Completed |
+| [Volume 08 - IPv6](Volumes/Volume08-IPv6/README.md) | ✅ Completed |
+| [Volume 09 - Static Routing](Volumes/Volume09-Static-Routing/README.md) | 🚧 In Progress |
+| [Volume 10 - RIP](Volumes/Volume10-RIP/README.md) | ⏳ Planned |
+| [Volume 11 - EIGRP](Volumes/Volume11-EIGRP/README.md) | ⏳ Planned |
+| [Volume 12 - OSPF](Volumes/Volume12-OSPF/README.md) | ⏳ Planned |
+| [Volume 13 - BGP](Volumes/Volume13-BGP/README.md) | ⏳ Planned |
+| [Volume 14 - Route Redistribution](Volumes/Volume14-Route-Redistribution/README.md) | ⏳ Planned |
+| [Volume 15 - ACL](Volumes/Volume15-ACL/README.md) | ⏳ Planned |
+| [Volume 16 - NAT](Volumes/Volume16-NAT/README.md) | ⏳ Planned |
+| [Volume 17 - DHCP](Volumes/Volume17-DHCP/README.md) | ⏳ Planned |
+| [Volume 18 - FHRP](Volumes/Volume18-FHRP/README.md) | ⏳ Planned |
+| [Volume 19 - QoS](Volumes/Volume19-QoS/README.md) | ⏳ Planned |
+| [Volume 20 - Security](Volumes/Volume20-Security/README.md) | ⏳ Planned |
+| [Volume 21 - AAA](Volumes/Volume21-AAA/README.md) | ⏳ Planned |
+| [Volume 22 - SNMP](Volumes/Volume22-SNMP/README.md) | ⏳ Planned |
+| [Volume 23 - Automation](Volumes/Volume23-Automation/README.md) | ⏳ Planned |
+| [Volume 24 - Troubleshooting](Volumes/Volume24-Troubleshooting/README.md) | ⏳ Planned |
+| [Volume 25 - Hidden Commands](Volumes/Volume25-Hidden-Commands/README.md) | ⏳ Planned |
 
 ---
 
