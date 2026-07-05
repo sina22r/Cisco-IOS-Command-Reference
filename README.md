@@ -213,12 +213,12 @@ These are intended for quick review before exams or while working on production 
 |--------|--------|
 | [Basic IOS](./Volumes/Volume01-IOS-Fundamentals/) | ✅ Completed |
 | [Interface Configuration](./Volumes/Volume02-Interface-Configuration/) | ✅ Completed |
-| [VLAN](./Volumes/Volume03-VLAN-Configuration/) | 🚧 In Progress |
-| [Trunk](./Volumes/Volume04-Trunk/) | ⏳ Planned |
-| [STP](./Volumes/Volume05-STP/) | ⏳ Planned |
+| [VLAN](./Volumes/Volume03-VLAN-Configuration/) | ✅ Completed |
+| [Trunk](./Volumes/Volume04-Trunk/) | ✅ Completed |
+| [STP](./Volumes/Volume05-STP/) | ✅ Completed |
 | [EtherChannel](./Volumes/Volume06-EtherChannel/) | ⏳ Planned |
 | [IPv4](./Volumes/Volume07-IPv4/) | ⏳ Planned |
-| [IPv6](./Volumes/Volume08-IPv6/) | ⏳ Planned |
+| [IPv6](./Volumes/Volume08-IPv6/) | 🚧 In Progress |
 | [Static Routing](./Volumes/Volume09-Static-Routing/) | ⏳ Planned |
 | [RIP](./Volumes/Volume10-RIP/) | ⏳ Planned |
 | [EIGRP](./Volumes/Volume11-EIGRP/) | ⏳ Planned |
