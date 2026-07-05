@@ -216,8 +216,8 @@ These are intended for quick review before exams or while working on production 
 | [VLAN](./Volumes/Volume03-VLAN-Configuration/) | ✅ Completed |
 | [Trunk](./Volumes/Volume04-Trunk/) | ✅ Completed |
 | [STP](./Volumes/Volume05-STP/) | ✅ Completed |
-| [EtherChannel](./Volumes/Volume06-EtherChannel/) | ⏳ Planned |
-| [IPv4](./Volumes/Volume07-IPv4/) | ⏳ Planned |
+| [EtherChannel](./Volumes/Volume06-EtherChannel/) | ✅ Completed |
+| [IPv4](./Volumes/Volume07-IPv4/) | ✅ Completed |
 | [IPv6](./Volumes/Volume08-IPv6/) | 🚧 In Progress |
 | [Static Routing](./Volumes/Volume09-Static-Routing/) | ⏳ Planned |
 | [RIP](./Volumes/Volume10-RIP/) | ⏳ Planned |
