@@ -236,6 +236,8 @@ These are intended for quick review before exams or while working on production 
 | [Volume 23 - Automation](Volumes/Volume23-Automation/README.md) | ⏳ Planned |
 | [Volume 24 - Troubleshooting](Volumes/Volume24-Troubleshooting/README.md) | ⏳ Planned |
 | [Volume 25 - Hidden Commands](Volumes/Volume25-Hidden-Commands/README.md) | ⏳ Planned |
+| [Common Mistakes](Common-Mistakes/README.md) | ⏳ Planned |
+
 
 ---
 
