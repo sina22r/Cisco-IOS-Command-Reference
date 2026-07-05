@@ -260,6 +260,8 @@ while trunk ports carry multiple VLANs between switches.
 
 ## Navigation
 
-⬅️ Previous: Part 2
+⬆️ [Back to Contents](#contents)
 
-➡️ Next: 02_VLAN_Verification_Commands.md
+⬅️ Previous: **[README.md](README.md)**
+
+➡️ Next: **[02_VLAN_Verification_Commands.md](02_VLAN_Verification_Commands.md)**
