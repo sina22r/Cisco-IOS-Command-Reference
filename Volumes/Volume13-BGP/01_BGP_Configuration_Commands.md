@@ -52,7 +52,12 @@
 - [bgp confederation peers](#bgp-confederation-peers)
 - [bgp graceful-restart](#bgp-graceful-restart)
 - [bgp enforce-first-as](#bgp-enforce-first-as)
-
+- [bgp fast-external-fallover](#bgp-fast-external-fallover)
+- [bgp bestpath compare-routerid](#bgp-bestpath-compare-routerid)
+- [bgp bestpath med missing-as-worst](#bgp-bestpath-med-missing-as-worst)
+- [bgp bestpath as-path ignore](#bgp-bestpath-as-path-ignore)
+- [neighbor capability dynamic](#neighbor-capability-dynamic)
+- [bgp listen range](#bgp-listen-range)
   
 ---
 
