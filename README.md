@@ -219,12 +219,12 @@ These are intended for quick review before exams or while working on production 
 | [Volume 06 - EtherChannel](Volumes/Volume06-EtherChannel/README.md) | ✅ Completed |
 | [Volume 07 - IPv4](Volumes/Volume07-IPv4/README.md) | ✅ Completed |
 | [Volume 08 - IPv6](Volumes/Volume08-IPv6/README.md) | ✅ Completed |
-| [Volume 09 - Static Routing](Volumes/Volume09-Static-Routing/README.md) | 🚧 In Progress |
-| [Volume 10 - RIP](Volumes/Volume10-RIP/README.md) | ⏳ Planned |
-| [Volume 11 - EIGRP](Volumes/Volume11-EIGRP/README.md) | ⏳ Planned |
-| [Volume 12 - OSPF](Volumes/Volume12-OSPF/README.md) | ⏳ Planned |
-| [Volume 13 - BGP](Volumes/Volume13-BGP/README.md) | ⏳ Planned |
-| [Volume 14 - Route Redistribution](Volumes/Volume14-Route-Redistribution/README.md) | ⏳ Planned |
+| [Volume 09 - Static Routing](Volumes/Volume09-Static-Routing/README.md) | ✅ Completed |
+| [Volume 10 - RIP](Volumes/Volume10-RIP/README.md) | ✅ Completed |
+| [Volume 11 - EIGRP](Volumes/Volume11-EIGRP/README.md) | ✅ Completed |
+| [Volume 12 - OSPF](Volumes/Volume12-OSPF/README.md) | ✅ Completed |
+| [Volume 13 - BGP](Volumes/Volume13-BGP/README.md) | ✅ Completed |
+| [Volume 14 - Route Redistribution](Volumes/Volume14-Route-Redistribution/README.md) | 🚧 In Progress |
 | [Volume 15 - ACL](Volumes/Volume15-ACL/README.md) | ⏳ Planned |
 | [Volume 16 - NAT](Volumes/Volume16-NAT/README.md) | ⏳ Planned |
 | [Volume 17 - DHCP](Volumes/Volume17-DHCP/README.md) | ⏳ Planned |
